@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: rgba(67, 22, 119, 0.952);
+  font-size: 2.5em;
+}
+h3 {
+    text-align: left;
+  }
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+footer {
+    text-align: right;
+    font-family: 'Cormorant SC', serif;
+    background-color: lightcoral;
+}
+
+.section {
+    border-style: dotted;
+}
+.color {
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    height: auto;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px auto;
+    font-size: 20px;
+}
+.font {
+    display: inline-block;
+    width: 30%;
+}
+.element {
+    display: block;
+    margin: 20px 10px;
+}
+.element h1{
+    text-align: left;
+}
+#blue {
+    background-color: rgba(0, 81, 255, 0.89);  /* Blue with opacity */
+    color: white;
+}
+
+#red {
+    background-color: rgba(255, 30, 0, 0.95);
+    color: black;
+}
+#green {
+    background-color: rgba(0, 255, 55, 0.95);
+    color: black;
+}
+.section h2 {
+  padding: 5px;
+}
+
+.standard {
+    font-style: normal;
+    font-family: inherit;
+}
+.bold {
+    font-weight: 800;
+    font-family: inherit;
+}
+.italic {
+    font-style: italic;
+    font-family: inherit;
+}
+#raleway {
+    font-family: 'Raleway', sans-serif;
+}
+#dancing {
+    font-family: 'Dancing Script', cursive;
+}
+#cormorant {
+    font-family: 'Cormorant SC', serif;
+}
